@@ -1,0 +1,165 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MyPetShop.Web", "MyPetShop.Web\", "{0DAFFCE9-A6A9-4811-B561-9B9CC358568A}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		ProjectReferences = "{9f8a423f-971a-47cf-9389-143e80039af9}|MyPetShop.BLL.dll;{AEC30ABC-74BE-47B0-81FC-C2C4FF3179E2}|MyPetShop.DAL.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_57637"
+		Debug.AspNetCompiler.PhysicalPath = "MyPetShop.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57637\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_57637"
+		Release.AspNetCompiler.PhysicalPath = "MyPetShop.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57637\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "57637"
+		SlnRelativePath = "MyPetShop.Web\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPetShop.BLL", "MyPetShop.BLL\MyPetShop.BLL.csproj", "{9F8A423F-971A-47CF-9389-143E80039AF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPetShop.DAL", "MyPetShop.DAL\MyPetShop.DAL.csproj", "{AEC30ABC-74BE-47B0-81FC-C2C4FF3179E2}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MyPetShop.WebEx10", "MyPetShop.WebEx10\", "{50E13EC3-7212-48C5-BC24-43745185C22B}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		ProjectReferences = "{9f8a423f-971a-47cf-9389-143e80039af9}|MyPetShop.BLL.dll;{AEC30ABC-74BE-47B0-81FC-C2C4FF3179E2}|MyPetShop.DAL.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_64494"
+		Debug.AspNetCompiler.PhysicalPath = "MyPetShop.WebEx10\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64494\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_64494"
+		Release.AspNetCompiler.PhysicalPath = "MyPetShop.WebEx10\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64494\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "64494"
+		SlnRelativePath = "MyPetShop.WebEx10\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MyPetShop.WebEx11", "MyPetShop.WebEx11\", "{4021DEC0-0936-4D58-8EAE-E9D37083A012}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		ProjectReferences = "{9f8a423f-971a-47cf-9389-143e80039af9}|MyPetShop.BLL.dll;{AEC30ABC-74BE-47B0-81FC-C2C4FF3179E2}|MyPetShop.DAL.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54232"
+		Debug.AspNetCompiler.PhysicalPath = "MyPetShop.WebEx11\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54232\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54232"
+		Release.AspNetCompiler.PhysicalPath = "MyPetShop.WebEx11\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54232\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54232"
+		SlnRelativePath = "MyPetShop.WebEx11\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MyPetShop.WebEx12", "MyPetShop.WebEx12\", "{7D82AB49-A576-4159-A6CF-3EA70F26E6A7}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		ProjectReferences = "{9f8a423f-971a-47cf-9389-143e80039af9}|MyPetShop.BLL.dll;{AEC30ABC-74BE-47B0-81FC-C2C4FF3179E2}|MyPetShop.DAL.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_49726"
+		Debug.AspNetCompiler.PhysicalPath = "MyPetShop.WebEx12\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49726\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_49726"
+		Release.AspNetCompiler.PhysicalPath = "MyPetShop.WebEx12\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49726\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49726"
+		SlnRelativePath = "MyPetShop.WebEx12\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MyPetShop.WebEx13", "MyPetShop.WebEx13\", "{66ED944E-FCB2-4CD3-8DBE-5C57CCC0294B}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		ProjectReferences = "{9f8a423f-971a-47cf-9389-143e80039af9}|MyPetShop.BLL.dll;{AEC30ABC-74BE-47B0-81FC-C2C4FF3179E2}|MyPetShop.DAL.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54124"
+		Debug.AspNetCompiler.PhysicalPath = "MyPetShop.WebEx13\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54124\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54124"
+		Release.AspNetCompiler.PhysicalPath = "MyPetShop.WebEx13\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54124\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54124"
+		SlnRelativePath = "MyPetShop.WebEx13\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DAFFCE9-A6A9-4811-B561-9B9CC358568A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DAFFCE9-A6A9-4811-B561-9B9CC358568A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DAFFCE9-A6A9-4811-B561-9B9CC358568A}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DAFFCE9-A6A9-4811-B561-9B9CC358568A}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{9F8A423F-971A-47CF-9389-143E80039AF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F8A423F-971A-47CF-9389-143E80039AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F8A423F-971A-47CF-9389-143E80039AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F8A423F-971A-47CF-9389-143E80039AF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEC30ABC-74BE-47B0-81FC-C2C4FF3179E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEC30ABC-74BE-47B0-81FC-C2C4FF3179E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEC30ABC-74BE-47B0-81FC-C2C4FF3179E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEC30ABC-74BE-47B0-81FC-C2C4FF3179E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50E13EC3-7212-48C5-BC24-43745185C22B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50E13EC3-7212-48C5-BC24-43745185C22B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50E13EC3-7212-48C5-BC24-43745185C22B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{50E13EC3-7212-48C5-BC24-43745185C22B}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{4021DEC0-0936-4D58-8EAE-E9D37083A012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4021DEC0-0936-4D58-8EAE-E9D37083A012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4021DEC0-0936-4D58-8EAE-E9D37083A012}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{4021DEC0-0936-4D58-8EAE-E9D37083A012}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{7D82AB49-A576-4159-A6CF-3EA70F26E6A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D82AB49-A576-4159-A6CF-3EA70F26E6A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D82AB49-A576-4159-A6CF-3EA70F26E6A7}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D82AB49-A576-4159-A6CF-3EA70F26E6A7}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{66ED944E-FCB2-4CD3-8DBE-5C57CCC0294B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66ED944E-FCB2-4CD3-8DBE-5C57CCC0294B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66ED944E-FCB2-4CD3-8DBE-5C57CCC0294B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{66ED944E-FCB2-4CD3-8DBE-5C57CCC0294B}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D141ED08-FE55-47B0-A5DA-CE13073A1D62}
+	EndGlobalSection
+EndGlobal

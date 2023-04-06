@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="SMDB" Class="BBSDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\SMDB.mdf;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="SMDBConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.BBSNote" Member="BBSNote">
+    <Type Name="BBSNote">
+      <Column Name="bnID" AutoSync="Never" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="uID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="bnContent" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="bnAddTime" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="bnSubject" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Association Name="BBSNote_BBSAnswer" Member="BBSAnswer" ThisKey="bnID" OtherKey="bnID" Type="BBSAnswer" />
+      <Association Name="Users_BBSNote" Member="Users" ThisKey="uID" OtherKey="uID" Type="Users" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.BBSAnswer" Member="BBSAnswer">
+    <Type Name="BBSAnswer">
+      <Column Name="baID" AutoSync="Never" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="uID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="bnID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="baContent" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="baAddTime" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Association Name="BBSNote_BBSAnswer" Member="BBSNote" ThisKey="bnID" OtherKey="bnID" Type="BBSNote" IsForeignKey="true" />
+      <Association Name="Users_BBSAnswer" Member="Users" ThisKey="uID" OtherKey="uID" Type="Users" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Users" Member="Users">
+    <Type Name="Users">
+      <Column Name="uID" AutoSync="Never" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="uName" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="uPwd" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="uRealName" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="uSex" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="uAge" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="uHobby" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="uPhone" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="uEmail" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="uQQ" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="uImage" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="uRegTime" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Association Name="Users_BBSNote" Member="BBSNote" ThisKey="uID" OtherKey="uID" Type="BBSNote" />
+      <Association Name="Users_BBSAnswer" Member="BBSAnswer" ThisKey="uID" OtherKey="uID" Type="BBSAnswer" />
+    </Type>
+  </Table>
+</Database>

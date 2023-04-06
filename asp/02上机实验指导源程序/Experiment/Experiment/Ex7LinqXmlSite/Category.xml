@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Categories>
+  <Category>
+    <CategoryId>1</CategoryId>
+    <Name>Fish</Name>
+    <Descn>Fish</Descn>
+  </Category>
+  <Category>
+    <CategoryId>2</CategoryId>
+    <Name>Backyard</Name>
+    <Descn>Backyard</Descn>
+  </Category>
+  <Category>
+    <CategoryId>3</CategoryId>
+    <Name>Birds</Name>
+    <Descn>Birds</Descn>
+  </Category>
+  <Category>
+    <CategoryId>4</CategoryId>
+    <Name>Bugs</Name>
+    <Descn>Bugs</Descn>
+  </Category>
+  <Category>
+    <CategoryId>5</CategoryId>
+    <Name>Endangered</Name>
+    <Descn>Endangered</Descn>
+  </Category>
+  <Category>
+    <CategoryId>6</CategoryId>
+    <Name>Cats</Name>
+    <Descn>有点像老虎</Descn>
+  </Category>
+</Categories>

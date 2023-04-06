@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="SiteMap.master.cs" Inherits="Chap11_SiteMap" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title></title>
+  <asp:ContentPlaceHolder ID="head" runat="server">
+  </asp:ContentPlaceHolder>
+</head>
+<body>
+  <form id="form1" runat="server">
+    <header>
+      <h1 style="background-color: #C0C0C0">网站Logo</h1>
+      <asp:SiteMapPath ID="SiteMapPath1" runat="server"></asp:SiteMapPath>
+    </header>
+    <section>
+      <table style="border-style: solid">
+        <tr>
+          <td style="border-style: solid; border-width: thin;">
+            <asp:TreeView ID="tvSiteMap" runat="server" DataSourceID="smdsSiteMap">
+            </asp:TreeView>
+            <asp:SiteMapDataSource ID="smdsSiteMap" runat="server" />
+          </td>
+          <td style="border-style: solid; border-width: thin;">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+          </td>
+        </tr>
+      </table>
+    </section>
+    <footer>Copyright 2018 页面底部版权等信息</footer>
+  </form>
+</body>
+</html>

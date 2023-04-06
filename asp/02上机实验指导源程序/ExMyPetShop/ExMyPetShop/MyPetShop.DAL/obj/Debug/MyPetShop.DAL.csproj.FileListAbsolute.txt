@@ -1,0 +1,14 @@
+D:\ASPNET\ExMyPetShop\MyPetShop.DAL\bin\Debug\MyPetShop.DAL.dll.config
+D:\ASPNET\ExMyPetShop\MyPetShop.DAL\bin\Debug\MyPetShop.DAL.dll
+D:\ASPNET\ExMyPetShop\MyPetShop.DAL\bin\Debug\MyPetShop.DAL.pdb
+D:\ASPNET\ExMyPetShop\MyPetShop.DAL\obj\Debug\MyPetShop.DAL.csprojResolveAssemblyReference.cache
+D:\ASPNET\ExMyPetShop\MyPetShop.DAL\obj\Debug\MyPetShop.DAL.csproj.CoreCompileInputs.cache
+D:\ASPNET\ExMyPetShop\MyPetShop.DAL\obj\Debug\MyPetShop.DAL.dll
+D:\ASPNET\ExMyPetShop\MyPetShop.DAL\obj\Debug\MyPetShop.DAL.pdb
+C:\Users\150\Desktop\02上机实验指导源程序\ExMyPetShop\ExMyPetShop\MyPetShop.DAL\bin\Debug\MyPetShop.DAL.dll.config
+C:\Users\150\Desktop\02上机实验指导源程序\ExMyPetShop\ExMyPetShop\MyPetShop.DAL\bin\Debug\MyPetShop.DAL.dll
+C:\Users\150\Desktop\02上机实验指导源程序\ExMyPetShop\ExMyPetShop\MyPetShop.DAL\bin\Debug\MyPetShop.DAL.pdb
+C:\Users\150\Desktop\02上机实验指导源程序\ExMyPetShop\ExMyPetShop\MyPetShop.DAL\obj\Debug\MyPetShop.DAL.csprojAssemblyReference.cache
+C:\Users\150\Desktop\02上机实验指导源程序\ExMyPetShop\ExMyPetShop\MyPetShop.DAL\obj\Debug\MyPetShop.DAL.csproj.CoreCompileInputs.cache
+C:\Users\150\Desktop\02上机实验指导源程序\ExMyPetShop\ExMyPetShop\MyPetShop.DAL\obj\Debug\MyPetShop.DAL.dll
+C:\Users\150\Desktop\02上机实验指导源程序\ExMyPetShop\ExMyPetShop\MyPetShop.DAL\obj\Debug\MyPetShop.DAL.pdb

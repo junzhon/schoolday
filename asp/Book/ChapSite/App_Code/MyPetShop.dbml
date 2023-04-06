@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="MyPetShop" Class="MyPetShopDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\MyPetShop.mdf;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="MyPetShopConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.CartItem" Member="CartItem">
+    <Type Name="CartItem">
+      <Column Name="CartItemId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CustomerId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ProId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ProName" Type="System.String" DbType="NVarChar(80) NOT NULL" CanBeNull="false" />
+      <Column Name="ListPrice" Type="System.Decimal" DbType="Decimal(10,2) NOT NULL" CanBeNull="false" />
+      <Column Name="Qty" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Customer_CartItem" Member="Customer" ThisKey="CustomerId" OtherKey="CustomerId" Type="Customer" IsForeignKey="true" />
+      <Association Name="Product_CartItem" Member="Product" ThisKey="ProId" OtherKey="ProductId" Type="Product" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Supplier" Member="Supplier">
+    <Type Name="Supplier">
+      <Column Name="SuppId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(80)" CanBeNull="true" />
+      <Column Name="Addr1" Type="System.String" DbType="NVarChar(80)" CanBeNull="true" />
+      <Column Name="Addr2" Type="System.String" DbType="NVarChar(80)" CanBeNull="true" />
+      <Column Name="City" Type="System.String" DbType="NVarChar(80)" CanBeNull="true" />
+      <Column Name="State" Type="System.String" DbType="NVarChar(80)" CanBeNull="true" />
+      <Column Name="Zip" Type="System.String" DbType="NVarChar(6)" CanBeNull="true" />
+      <Column Name="Phone" Type="System.String" DbType="NVarChar(40)" CanBeNull="true" />
+      <Association Name="Supplier_Product" Member="Product" ThisKey="SuppId" OtherKey="SuppId" Type="Product" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Category" Member="Category">
+    <Type Name="Category">
+      <Column Name="CategoryId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(80)" CanBeNull="true" />
+      <Column Name="Descn" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Association Name="Category_Product" Member="Product" ThisKey="CategoryId" OtherKey="CategoryId" Type="Product" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Customer" Member="Customer">
+    <Type Name="Customer">
+      <Column Name="CustomerId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(80) NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="NVarChar(80) NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(80) NOT NULL" CanBeNull="false" />
+      <Association Name="Customer_CartItem" Member="CartItem" ThisKey="CustomerId" OtherKey="CustomerId" Type="CartItem" />
+      <Association Name="Customer_Order" Member="Order" ThisKey="CustomerId" OtherKey="CustomerId" Type="Order" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[Order]" Member="Order">
+    <Type Name="Order">
+      <Column Name="OrderId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CustomerId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="UserName" Type="System.String" DbType="NVarChar(80) NOT NULL" CanBeNull="false" />
+      <Column Name="OrderDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Addr1" Type="System.String" DbType="NVarChar(80)" CanBeNull="true" />
+      <Column Name="Addr2" Type="System.String" DbType="NVarChar(80)" CanBeNull="true" />
+      <Column Name="City" Type="System.String" DbType="NVarChar(80)" CanBeNull="true" />
+      <Column Name="State" Type="System.String" DbType="NVarChar(80)" CanBeNull="true" />
+      <Column Name="Zip" Type="System.String" DbType="NVarChar(6)" CanBeNull="true" />
+      <Column Name="Phone" Type="System.String" DbType="NVarChar(40)" CanBeNull="true" />
+      <Column Name="Status" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Association Name="Order_OrderItem" Member="OrderItem" ThisKey="OrderId" OtherKey="OrderId" Type="OrderItem" />
+      <Association Name="Customer_Order" Member="Customer" ThisKey="CustomerId" OtherKey="CustomerId" Type="Customer" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.OrderItem" Member="OrderItem">
+    <Type Name="OrderItem">
+      <Column Name="ItemId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="OrderId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ProName" Type="System.String" DbType="NVarChar(80)" CanBeNull="true" />
+      <Column Name="ListPrice" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="Qty" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TotalPrice" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Association Name="Order_OrderItem" Member="Order" ThisKey="OrderId" OtherKey="OrderId" Type="Order" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Product" Member="Product">
+    <Type Name="Product">
+      <Column Name="ProductId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CategoryId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ListPrice" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="UnitCost" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="SuppId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(80)" CanBeNull="true" />
+      <Column Name="Descn" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="Image" Type="System.String" DbType="NVarChar(80)" CanBeNull="true" />
+      <Column Name="Qty" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Product_CartItem" Member="CartItem" ThisKey="ProductId" OtherKey="ProId" Type="CartItem" />
+      <Association Name="Category_Product" Member="Category" ThisKey="CategoryId" OtherKey="CategoryId" Type="Category" IsForeignKey="true" />
+      <Association Name="Supplier_Product" Member="Supplier" ThisKey="SuppId" OtherKey="SuppId" Type="Supplier" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.CategoryInsert" Method="CategoryInsert">
+    <Parameter Name="Name" Parameter="name" Type="System.String" DbType="VarChar(80)" />
+    <Parameter Name="Descn" Parameter="descn" Type="System.String" DbType="VarChar(255)" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/Chap11/Services.aspx" title="服务" description="售后服务">
+    <siteMapNode url="~/Chap11/Training.aspx" title="培训" description="培训服务" />
+    <siteMapNode url="~/Chap11/Consulting.aspx" title="咨询" description="咨询服务"/>
+    <siteMapNode url="~/Chap11/Support.aspx" title="支持" description="技术支持"/>
+  </siteMapNode>
+</siteMap>
+

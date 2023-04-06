@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="smdb-Web.config Connection String" description="smdb 由应用程序在 web.config 中用来访问数据库的连接字符串。" defaultValue="Data Source=junzhon.database.windows.net;Initial Catalog=33;User ID=jjfly;Password=233123321q@;Connect Timeout=60;Encrypt=True;TrustServerCertificate=true;ApplicationIntent=ReadWrite;MultiSubnetFailover=False;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\150\\Desktop\\labor\\asp\\ShoppingCity-master\ -\ 副本\\ShoppingCity\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='smdb']/@connectionString" />
+  </parameter>
+  <parameter name="SMDBConnectionString1-Web.config Connection String" description="SMDBConnectionString1 由应用程序在 web.config 中用来访问数据库的连接字符串。" defaultValue="Data Source=junzhon.database.windows.net;Initial Catalog=33;User ID=jjfly;Password=233123321q@;Connect Timeout=60;Encrypt=True;TrustServerCertificate=true;ApplicationIntent=ReadWrite;MultiSubnetFailover=False;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\150\\Desktop\\labor\\asp\\ShoppingCity-master\ -\ 副本\\ShoppingCity\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SMDBConnectionString1']/@connectionString" />
+  </parameter>
+</parameters>

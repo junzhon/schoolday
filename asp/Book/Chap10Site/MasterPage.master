@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>母版页</title>
+  <asp:ContentPlaceHolder ID="cphHead" runat="server">
+  </asp:ContentPlaceHolder>
+</head>
+<body>
+  <form id="form1" runat="server">
+    <div>
+      <header>
+        母版页中添加的网站Logo、搜索入口、登录入口、站点导航栏等信息。
+      </header>
+      <section>
+        <asp:ContentPlaceHolder ID="cphSection" runat="server">
+        </asp:ContentPlaceHolder>
+      </section>
+      <footer>
+        母版页中添加的页底部版权等信息。
+      </footer>
+    </div>
+  </form>
+</body>
+</html>

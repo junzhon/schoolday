@@ -1,0 +1,7 @@
+C:\Users\150\Desktop\02上机实验指导源程序\ExMyPetShop\ExMyPetShop\MyPetShop.DAL\bin\Release\MyPetShop.DAL.dll.config
+C:\Users\150\Desktop\02上机实验指导源程序\ExMyPetShop\ExMyPetShop\MyPetShop.DAL\bin\Release\MyPetShop.DAL.dll
+C:\Users\150\Desktop\02上机实验指导源程序\ExMyPetShop\ExMyPetShop\MyPetShop.DAL\bin\Release\MyPetShop.DAL.pdb
+C:\Users\150\Desktop\02上机实验指导源程序\ExMyPetShop\ExMyPetShop\MyPetShop.DAL\obj\Release\MyPetShop.DAL.csprojAssemblyReference.cache
+C:\Users\150\Desktop\02上机实验指导源程序\ExMyPetShop\ExMyPetShop\MyPetShop.DAL\obj\Release\MyPetShop.DAL.csproj.CoreCompileInputs.cache
+C:\Users\150\Desktop\02上机实验指导源程序\ExMyPetShop\ExMyPetShop\MyPetShop.DAL\obj\Release\MyPetShop.DAL.dll
+C:\Users\150\Desktop\02上机实验指导源程序\ExMyPetShop\ExMyPetShop\MyPetShop.DAL\obj\Release\MyPetShop.DAL.pdb

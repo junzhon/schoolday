@@ -1,0 +1,10 @@
+C:\Users\150\Desktop\02上机实验指导源程序\ExMyPetShop\ExMyPetShop\MyPetShop.BLL\bin\Release\MyPetShop.BLL.dll
+C:\Users\150\Desktop\02上机实验指导源程序\ExMyPetShop\ExMyPetShop\MyPetShop.BLL\bin\Release\MyPetShop.BLL.pdb
+C:\Users\150\Desktop\02上机实验指导源程序\ExMyPetShop\ExMyPetShop\MyPetShop.BLL\bin\Release\MyPetShop.DAL.dll
+C:\Users\150\Desktop\02上机实验指导源程序\ExMyPetShop\ExMyPetShop\MyPetShop.BLL\bin\Release\MyPetShop.DAL.pdb
+C:\Users\150\Desktop\02上机实验指导源程序\ExMyPetShop\ExMyPetShop\MyPetShop.BLL\bin\Release\MyPetShop.DAL.dll.config
+C:\Users\150\Desktop\02上机实验指导源程序\ExMyPetShop\ExMyPetShop\MyPetShop.BLL\obj\Release\MyPetShop.BLL.csprojAssemblyReference.cache
+C:\Users\150\Desktop\02上机实验指导源程序\ExMyPetShop\ExMyPetShop\MyPetShop.BLL\obj\Release\MyPetShop.BLL.csproj.CoreCompileInputs.cache
+C:\Users\150\Desktop\02上机实验指导源程序\ExMyPetShop\ExMyPetShop\MyPetShop.BLL\obj\Release\MyPetShop.BLL.csproj.CopyComplete
+C:\Users\150\Desktop\02上机实验指导源程序\ExMyPetShop\ExMyPetShop\MyPetShop.BLL\obj\Release\MyPetShop.BLL.dll
+C:\Users\150\Desktop\02上机实验指导源程序\ExMyPetShop\ExMyPetShop\MyPetShop.BLL\obj\Release\MyPetShop.BLL.pdb

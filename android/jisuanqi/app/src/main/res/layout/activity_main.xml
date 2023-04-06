@@ -1,0 +1,124 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/GridLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="4"
+    android:orientation="horizontal"
+    android:rowCount="6" >
+
+    <EditText
+        android:id="@+id/et_input"
+        android:layout_columnSpan="4"
+        android:layout_gravity="fill"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/txt_radiuborder"
+        android:text=""
+        android:textSize="50sp" />
+
+<!--    <EditText-->
+<!--       -->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:background="@drawable/white"-->
+<!--        android:editable="false"-->
+<!--        android:paddingBottom="5dp"-->
+<!--        android:textSize="30sp" />-->
+<!--    <TextView-->
+
+<!--        android:id="@+id/text"-->
+<!--        android:layout_columnSpan="4"-->
+<!--        android:layout_gravity="fill"-->
+<!--        android:layout_marginLeft="5dp"-->
+<!--        android:layout_marginRight="5dp"-->
+<!--        android:background="@drawable/txt_radiuborder"-->
+<!--        android:text="0"-->
+<!--        android:textSize="50sp" />-->
+
+    <Button
+        android:id="@+id/back"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:text="回退" />
+    <Button
+        android:id="@+id/clear"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:text="清空" />
+
+
+
+    <Button android:id="@+id/btn1" android:text="1" />
+
+    <Button android:id="@+id/btn2" android:text="2" />
+
+    <Button android:id="@+id/btn3" android:text="3" />
+
+    <Button android:id="@+id/btnplus" android:text="+" />
+
+    <Button android:id="@+id/btn4" android:text="4" />
+
+    <Button android:id="@+id/btn5" android:text="5" />
+
+    <Button android:id="@+id/btn6" android:text="6" />
+    <Button android:id="@+id/btnjian" android:text="-" />
+
+
+    <Button android:id="@+id/btn7" android:text="7" />
+
+    <Button android:id="@+id/btn8" android:text="8" />
+
+    <Button android:id="@+id/btn9" android:text="9" />
+    <Button android:id="@+id/btnx" android:text="*" />
+    <Button android:text="0" android:id="@+id/btn0"/>
+
+    <Button android:id="@+id/btnchu" android:text="/" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="."
+        android:id="@+id/btndian"/>
+    <Button android:text="="
+        android:id="@+id/btndeng"/>
+    <Button android:text="sqrt"
+        android:id="@+id/btnsqrt"/>
+    <Button android:text="1/"
+        android:id="@+id/btnx1"/>
+    <Button android:text="^"
+        android:id="@+id/btnXN"/>
+    <Button android:text="log"
+        android:id="@+id/btnlog"/>
+    <Button android:text="fac"
+        android:id="@+id/btnN"/>
+    <Button android:text="ln"
+        android:id="@+id/btnLN"/>
+    <Button android:id="@+id/btnjd" android:text="precision" />
+    <Button android:text="sin"
+        android:id="@+id/btnSIN"/>
+    <Button android:text="cos"
+        android:id="@+id/btncos"/>
+    <Button android:text="exp"
+        android:id="@+id/btnEXP"/>
+    <Button android:text="("
+        android:id="@+id/btnZC"/>
+    <Button android:text=")"
+        android:id="@+id/btnYC"/>
+    <Button android:text="PI"
+        android:id="@+id/btnPI"/>
+    <Button android:text="e"
+        android:id="@+id/btne"/>
+    <Button
+        android:id="@+id/text1"
+        android:layout_width="146dp"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+/>
+<!--    <AnalogClock-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="100dp"-->
+
+<!--        />-->
+
+
+</GridLayout>

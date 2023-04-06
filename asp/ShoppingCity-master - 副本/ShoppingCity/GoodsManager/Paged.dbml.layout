@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Paged">
+  <DataContextMoniker Name="/PagedDataContext" />
+  <nestedChildShapes>
+    <classShape Id="1e92c0ed-21f2-4901-b410-614619eb52bb" absoluteBounds="1.125, 0.5, 2, 1.5373050944010416">
+      <DataClassMoniker Name="/PagedDataContext/SCarInfo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f2e729dd-c068-4d58-98f8-2741987314c1" absoluteBounds="1.1400000000000001, 0.96, 1.9700000000000002, 0.97730509440104174" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="791b0954-adae-4ce3-8528-d1f2ad286909" absoluteBounds="4.375, 1, 2, 1.3525109863281251">
+      <DataClassMoniker Name="/PagedDataContext/SCar" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4a755dad-07a7-48bd-a484-7a3e46e867ef" absoluteBounds="4.39, 1.46, 1.9700000000000002, 0.792510986328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4e196165-a4c2-4ba0-b874-0b40feee4fda" absoluteBounds="2.25, 1, 2, 3.2004520670572916">
+      <DataClassMoniker Name="/PagedDataContext/Goods" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fdcf7866-f68b-4ad2-b87c-1108700033ea" absoluteBounds="2.265, 1.46, 1.9700000000000002, 2.6404520670572915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8bb40af3-a1a9-4228-8ebd-102420594665" absoluteBounds="3.625, 2.25, 2, 1.7220992024739581">
+      <DataClassMoniker Name="/PagedDataContext/GoodEvaluate" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e657581a-9ef7-4fd1-8291-99b36a40a50a" absoluteBounds="3.6399999999999997, 2.71, 1.9700000000000002, 1.1620992024739583" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f9c8812d-b8e8-4876-ab2c-4f9976ef9551" absoluteBounds="0.5, 1.375, 2, 3.0156579589843751">
+      <DataClassMoniker Name="/PagedDataContext/Users" />
+      <nestedChildShapes>
+        <elementListCompartment Id="eca60756-1f49-4f7a-a2e9-6e8b494682c2" absoluteBounds="0.515, 1.835, 1.9700000000000002, 2.455657958984375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
